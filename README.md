@@ -140,7 +140,23 @@ These observations indicate areas requiring investigation. The analysis does not
 
 ## 📁 Project Structure
 
-
+QuickBite-Express-Analytics/
+│
+├── datas/
+│   ├── dim_customer_clean.csv
+│   ├── dim_delivery_partner_clean.csv
+│   ├── dim_menu_item_clean.csv
+│   ├── dim_restaurant_clean.csv
+│   ├── fact_delivery_performance_clean.csv
+│   ├── fact_order_items_clean.csv
+│   ├── fact_orders_clean.csv
+│   └── fact_ratings_clean.csv
+│
+├── screenshots/
+│
+├── README.md
+├── business_findings.md
+└── mohanakrishnan_m_DS_may_26.pbix
 ```
 
 ## 👨‍💻 Skills Demonstrated
