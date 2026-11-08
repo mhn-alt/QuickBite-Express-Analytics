@@ -1,7 +1,5 @@
 # 🍔 QuickBite Express — Business Performance & Crisis Recovery Analytics
 
-
-
 ## 📌 Project Overview
 
 QuickBite Express is a fictional Bengaluru-based food-tech startup used for a Business Intelligence and Data Analytics case study.
@@ -28,7 +26,7 @@ The objective is to identify trends, understand operational challenges, analyze 
 | Power BI | Interactive dashboard development |
 | Power Query | Data transformation |
 | DAX | KPI calculations and measures |
-| Version control | Git,Github  |
+| Git & GitHub | Version control and project hosting |
 
 ## 📂 Dataset Description
 
@@ -47,7 +45,7 @@ The project uses eight cleaned tables:
 
 **Data preparation:** Initial profiling, missing-value analysis, duplicate checks, and cleaning were performed using Python and Pandas.
 
-*Dataset source: Add the original dataset source or explain that it is synthetic if applicable. Do not claim an unverified source.*
+**Dataset note:** QuickBite Express is a fictional business case study. The repository contains the cleaned tables used for the analysis. Dataset provenance is not claimed here; any original source attribution should be added once verified.
 
 ## 🧩 Data Modeling
 
@@ -99,6 +97,20 @@ The report contains four interactive pages.
 - Customer Rating Trend
 - Customer Sentiment Trend
 
+## 🖼️ Dashboard Preview
+
+### Executive Overview
+![Executive Overview](screenshots/Screenshot%202026-11-08%20173403.png)
+
+### Customer & Revenue Analytics
+![Customer and Revenue Analytics](screenshots/Screenshot%202026-11-08%20173437.png)
+
+### Restaurant & Product Analytics
+![Restaurant and Product Analytics](screenshots/Screenshot%202026-11-08%20173458.png)
+
+### Delivery & Customer Experience
+![Delivery and Customer Experience](screenshots/Screenshot%202026-11-08%20173514.png)
+
 ## 📈 Key Business Insights
 
 | Finding | Result |
@@ -121,8 +133,21 @@ The report contains four interactive pages.
 
 These observations indicate areas requiring investigation. The analysis does not independently prove that the fictional crisis caused the changes.
 
-## 💡 Business Recommendations
+## 🎯 Project Highlights
 
+- Analyzed 149,166 food delivery orders.
+- Evaluated customer behavior, acquisition channels, and revenue trends.
+- Identified a major business downturn in June 2025.
+- Compared restaurant, cuisine, and menu item performance.
+- Examined delivery delays, SLA breaches, ratings, and sentiment.
+- Built a four-page interactive Power BI dashboard.
+- Translated analytical findings into business recommendations.
+
+## 💡 Business Impact & Recommendations
+
+The analysis highlights where management should focus recovery efforts: delivery reliability, customer trust, restaurant quality, and customer retention. The dashboard provides a consolidated view of performance indicators to support monitoring and decision-making.
+
+Recommended actions:
 - Improve delivery partner allocation and route efficiency.
 - Investigate customer complaints and negative reviews.
 - Strengthen restaurant food-safety practices.
@@ -140,6 +165,7 @@ These observations indicate areas requiring investigation. The analysis does not
 
 ## 📁 Project Structure
 
+```text
 QuickBite-Express-Analytics/
 │
 ├── datas/
@@ -153,6 +179,10 @@ QuickBite-Express-Analytics/
 │   └── fact_ratings_clean.csv
 │
 ├── screenshots/
+│   ├── Screenshot 2026-11-08 173403.png
+│   ├── Screenshot 2026-11-08 173437.png
+│   ├── Screenshot 2026-11-08 173458.png
+│   └── Screenshot 2026-11-08 173514.png
 │
 ├── README.md
 ├── business_findings.md
