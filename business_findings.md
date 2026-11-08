@@ -2,41 +2,42 @@
 
 ## 1. Executive Summary
 
-QuickBite Express is a fictional Bengaluru-based food-tech business used for a business intelligence case study. This project analyzes performance from January to September 2025, with particular attention to a sharp downturn observed in June 2025.
+QuickBite Express is a fictional Bengaluru-based food-tech business used for this business intelligence case study. The project analyzes January–September 2025 performance, with a focused investigation of the sharp downturn observed in June 2025.
 
-The analysis brings together order, customer, restaurant, product, rating, and delivery data to understand business performance and identify areas that require management attention.
+The analysis combines order, customer, restaurant, menu, rating, and delivery data to assess commercial performance and customer experience.
 
-**The central finding:** June 2025 marks a substantial deterioration across multiple business indicators. Orders and revenue fell sharply, while cancellations increased and customer ratings and sentiment weakened. Delivery performance also shows a significant service-level challenge.
+**The central finding:** June 2025 was a major disruption point. Orders and revenue fell sharply, cancellations increased, and customer ratings and sentiment deteriorated. Delivery data also indicates a substantial service-level challenge.
 
-The dashboard is designed to help stakeholders monitor these issues and prioritize recovery actions. The observed trends align with the fictional crisis scenario, but the analysis does not establish that the scenario events caused the changes.
+The findings support a coordinated recovery focus across delivery operations, restaurant partnerships, customer experience, and retention. The trends coincide with the fictional crisis scenario, but this descriptive analysis does not prove that any single event caused the decline.
 
-## 2. Business Performance at a Glance
+## 2. Business Performance Snapshot
 
 | KPI | Result |
 |---|---:|
 | Total Orders | 149,166 |
 | Completed Orders | 138,054 |
 | Cancelled Orders | 11,112 |
+| Order Completion Rate | 92.55% |
+| Cancellation Rate | 7.45% |
 | Total Revenue | ₹48.56M |
 | Average Order Value | ₹351.75 |
 | Total Customers | Approximately 105K |
-| Cancellation Rate | 7.45% |
 | Average Customer Rating | 4.05 |
 | Average Sentiment Score | 0.53 |
 | Completed-order SLA Breach Rate | 63.46% |
 
-### What the KPIs indicate
+### What these numbers tell us
 
-- **Order completion:** 138,054 of 149,166 orders were completed, while 11,112 were cancelled.
-- **Revenue:** The business generated approximately ₹48.56 million over the analysis period.
-- **Customer experience:** The overall average rating was 4.05, but the monthly trend reveals a sharp decline in June.
-- **Delivery reliability:** A 63.46% SLA breach rate among completed orders highlights a major operational issue that deserves investigation.
+- **Order fulfillment:** 92.55% of recorded orders were completed; 7.45% were cancelled.
+- **Revenue:** The business generated approximately ₹48.56 million during the analysis period.
+- **Customer experience:** The overall average rating was 4.05, although the monthly trend exposes a sharp June decline.
+- **Delivery reliability:** A 63.46% SLA breach rate among completed orders is a significant operational warning and warrants investigation.
 
-These overall figures provide context, but monthly and segment-level analysis is necessary to identify when and where performance changed.
+Overall KPIs provide a useful baseline, but they can hide sudden changes. Monthly trends and breakdowns by customer, restaurant, product, and delivery segment are essential for locating the underlying issues.
 
-## 3. June 2025: Business Downturn Analysis
+## 3. June 2025: The Critical Downturn
 
-A significant deterioration occurred between May and June 2025.
+The May-to-June comparison shows a sharp deterioration across several business measures.
 
 | Metric | May 2025 | June 2025 | Change |
 |---|---:|---:|---:|
@@ -46,148 +47,176 @@ A significant deterioration occurred between May and June 2025.
 | Customer Sentiment | 0.75 | -0.21 | -0.96 points |
 | Cancellation Rate | Approximately 6% | Approximately 12% | Nearly doubled |
 
-### Key observations
+### Key findings
 
-1. **Demand contraction:** Order volume declined by 58.86%, indicating a substantial reduction in transaction activity.
-2. **Revenue pressure:** Revenue fell by 61.22%, a decline slightly steeper than the fall in order volume.
-3. **Customer dissatisfaction:** Average ratings dropped from 4.49 to 2.58.
-4. **Negative sentiment shift:** The sentiment score moved from 0.75 to -0.21, indicating a major change in the tone of customer feedback.
-5. **Higher cancellations:** The cancellation rate nearly doubled, adding further pressure to order completion.
+1. **Demand contracted:** Order volume fell by 58.86%, indicating a substantial reduction in transaction activity.
+2. **Revenue fell faster than orders:** Revenue declined by 61.22%, 2.36 percentage points more than the order decline. This suggests that order volume alone may not explain the full revenue movement; changes in order value or order mix should also be examined.
+3. **Ratings weakened:** Average customer rating dropped from 4.49 to 2.58.
+4. **Sentiment turned negative:** The sentiment score moved from 0.75 to -0.21.
+5. **Cancellations increased:** The cancellation rate rose from approximately 6% to approximately 12%.
 
 ### Business interpretation
 
-The simultaneous movement in demand, revenue, cancellations, ratings, and sentiment suggests that the downturn was not limited to one business function. It affected commercial performance and customer experience at the same time.
+The simultaneous decline in demand, revenue, ratings, and sentiment, alongside higher cancellations, indicates that the downturn affected multiple parts of the business rather than one isolated KPI.
 
-The fictional case scenario includes a food-safety social-media incident and monsoon-related delivery disruption around this period. The timing is consistent with the observed decline, but the available analysis is descriptive: it does not isolate the impact of individual events or prove causation.
+The fictional case scenario includes a food-safety social-media incident and monsoon-related delivery disruption around this period. Their timing is consistent with the observed performance decline, but the dashboard provides descriptive evidence only. It does not isolate the effect of each event or establish causation.
 
-**Management priority:** Investigate the June decline by examining customer feedback, cancellation reasons, delivery zones, restaurant performance, and monthly trends together.
+**Management implication:** Treat June as an investigation point. Review customer feedback, cancellation reasons, delivery zones, restaurant performance, and order-value trends together before selecting corrective actions.
 
-## 4. Customer & Revenue Insights
+## 4. Customer & Revenue Analytics
 
 ### Findings
 
-- Organic acquisition generated the highest revenue among the acquisition channels displayed in the report.
+- Organic acquisition generated the highest revenue among the acquisition channels shown in the report.
 - Organic customers also contributed the largest share of orders.
-- Order activity declined sharply from June onward.
-- Customer ratings deteriorated significantly between May and June.
+- Order activity declined sharply in June.
+- Average customer rating fell significantly between May and June.
 
 ### Business implications
 
-Organic acquisition appears to be an important source of business activity. However, acquisition performance alone cannot offset a decline in customer trust or service quality.
+Organic acquisition is an important source of order activity in the period analyzed. However, acquisition alone is unlikely to restore performance if existing customers are reducing order frequency or losing confidence in the service.
 
-The business should understand whether existing customers reduced their order frequency, stopped ordering, or experienced poor service during the downturn.
+The next analytical question is whether the downturn was driven mainly by fewer new customers, lower repeat activity, or both.
 
 ### Recommended actions
 
 - Segment customers by first-order month and repeat-purchase behavior.
-- Track monthly active customers and repeat-order rate.
-- Analyze customer feedback alongside order and cancellation trends.
+- Track monthly active customers, repeat-order rate, and customer reactivation.
+- Compare customer cohorts before and after the June downturn.
+- Analyze feedback and cancellation patterns alongside customer order frequency.
 - Prioritize retention and service recovery before increasing acquisition spending.
 
-## 5. Restaurant & Product Insights
+## 5. Restaurant & Product Analytics
 
 ### Findings
 
 - Restaurant partners contributed approximately 70.3% of orders.
 - Cloud kitchens contributed approximately 29.7%.
-- North Indian cuisine generated the highest revenue among the cuisine categories displayed.
+- North Indian cuisine generated the highest revenue among the cuisine categories shown.
 - Beverages and starters were leading menu categories by item revenue.
-- The report identifies top-performing restaurants and their contribution to revenue.
+- The report highlights restaurant-level revenue and performance.
 
 ### Business implications
 
-The order mix indicates that restaurant partners represent the larger share of order activity, making partner reliability and food quality important to the customer experience.
+Restaurant partners account for the larger share of order activity, so partner reliability, food quality, and preparation time are important parts of the overall customer experience.
 
-Category-level and restaurant-level performance can help management understand where demand is concentrated and where additional support may be required.
+Cuisine and menu-category performance can help management understand demand concentration. These results should be considered alongside ratings, cancellations, and delivery outcomes rather than revenue alone.
 
 ### Recommended actions
 
-- Monitor restaurant-level order volume, revenue, ratings, and cancellation patterns.
+- Monitor restaurant-level orders, revenue, ratings, and cancellation patterns.
 - Review food-safety and quality processes with restaurant partners.
-- Identify restaurants with declining performance and investigate the underlying reasons.
+- Investigate restaurants with declining ratings or unusual cancellation patterns.
 - Review menu availability and preparation times for high-demand categories.
+- Compare partner and cloud-kitchen performance using consistent KPIs.
 
-## 6. Delivery & Customer Experience Insights
+## 6. Delivery & Customer Experience Analytics
 
-### Findings
+### Delivery performance
 
-| Delivery KPI | Result |
+| KPI | Result |
 |---|---:|
 | Average Actual Delivery Time | 44.4 minutes |
 | Average Expected Delivery Time | 38.7 minutes |
 | Average Delivery Delay | 5.7 minutes |
 | Completed-order SLA Breach Rate | 63.46% |
 
+### Findings
+
 - Actual delivery time exceeded expected delivery time by approximately 5.7 minutes on average.
 - The completed-order SLA breach rate was 63.46%.
 - The monthly SLA breach trend increased sharply from June onward.
-- Customer ratings and sentiment declined during the same period.
+- Ratings and sentiment declined during the same period.
 
 ### Business implications
 
-Delivery reliability is a major area for improvement. Late deliveries can contribute to a poor customer experience, but the available dashboard does not establish that delivery delays directly caused the decline in ratings or sentiment.
+Delivery reliability is a clear area for operational investigation. Late deliveries may contribute to a poor customer experience, but the current analysis does not establish a direct causal relationship between delivery delays and lower ratings or sentiment.
 
 ### Recommended actions
 
 - Identify delivery zones, time periods, and partners with frequent SLA breaches.
 - Compare actual and expected delivery times by zone and order period.
-- Investigate whether preparation time, assignment delays, or route conditions are contributing to late deliveries.
-- Track SLA performance together with ratings, complaints, and cancellations.
+- Investigate preparation time, rider assignment delays, and route conditions.
+- Track delivery performance alongside ratings, complaints, and cancellations.
+- Review whether expected delivery times are realistic and consistently calculated.
 
-## 7. Prioritized Business Recommendations
+## 7. Prioritized Recommendations
 
-| Priority | Area | Recommended action | Suggested success measure |
+| Priority | Focus area | Recommended action | Success measure |
 |---|---|---|---|
-| 1 | Delivery Operations | Investigate high-delay zones and improve partner allocation | Reduce SLA breach rate |
-| 2 | Customer Experience | Establish complaint resolution and service recovery processes | Improve average rating and sentiment |
-| 3 | Restaurant Partnerships | Review food-safety, preparation, and quality standards | Reduce restaurant-related complaints |
-| 4 | Customer Retention | Develop targeted campaigns for inactive and repeat customers | Improve repeat-order rate |
-| 5 | Management | Review business KPIs on a regular schedule | Track recovery across orders, revenue, and cancellations |
+| 1 | Delivery operations | Investigate high-delay zones and improve partner allocation | Lower SLA breach rate and average delay |
+| 2 | Customer experience | Strengthen complaint resolution and service recovery | Higher ratings and improved sentiment |
+| 3 | Restaurant partnerships | Review food-safety, preparation, and quality standards | Fewer quality-related complaints and cancellations |
+| 4 | Customer retention | Target inactive customers and encourage repeat orders | Higher repeat-order and reactivation rates |
+| 5 | Management reporting | Review a balanced KPI scorecard regularly | Sustained improvement across business, operations, and CX |
 
-*The success measures are proposed monitoring targets, not achieved results. Management should establish numerical targets after reviewing operational baselines and business capacity.*
+*These are proposed actions and success measures, not results already achieved. Numerical targets should be set after management validates the baseline, definitions, and operational capacity.*
 
-## 8. Suggested Recovery Monitoring Framework
+## 8. Suggested 90-Day Recovery Roadmap
 
-A recovery plan should monitor a balanced set of commercial, operational, and customer indicators rather than relying on revenue alone.
+The following is a proposed implementation sequence, not a record of actions taken by the fictional business.
 
-| Dimension | KPIs to monitor | Why it matters |
+| Phase | Focus | Suggested activities |
 |---|---|---|
-| Business performance | Orders, revenue, AOV | Measures commercial recovery |
-| Order quality | Completion rate, cancellation rate | Tracks successful order fulfillment |
+| Days 1–30 | Diagnose and stabilize | Identify high-breach zones and underperforming partners; review complaints and cancellation reasons; establish KPI baselines |
+| Days 31–60 | Improve service | Pilot delivery allocation and preparation-time improvements; strengthen partner quality checks; launch targeted customer recovery |
+| Days 61–90 | Measure and optimize | Compare results against baseline; evaluate customer reactivation; scale interventions that show measurable improvement |
+
+### Recovery scorecard
+
+| Dimension | KPIs | Why it matters |
+|---|---|---|
+| Commercial | Orders, revenue, AOV | Measures business recovery |
+| Order fulfillment | Completion rate, cancellation rate | Measures successful order fulfillment |
 | Delivery | Average delivery time, SLA breach rate | Measures operational reliability |
-| Customer experience | Average rating, sentiment, complaints | Tracks customer trust and satisfaction |
-| Retention | Repeat-order rate, inactive customers | Measures customer engagement |
+| Customer experience | Rating, sentiment, complaints | Tracks customer satisfaction and trust |
+| Retention | Repeat-order rate, inactive customers | Measures ongoing customer engagement |
 
-Monthly comparisons should be used to identify whether improvements are sustained, while zone-, restaurant-, and customer-level breakdowns can help locate persistent problems.
+Use monthly comparisons to check whether improvements are sustained. Use zone-, restaurant-, and customer-level analysis to identify where problems remain.
 
-## 9. Project Conclusion
+## 9. Analytical Scope & Limitations
 
-The QuickBite Express case study demonstrates how business intelligence can turn raw operational data into structured insights for decision-making.
+- This is a **descriptive BI analysis**. It identifies patterns and changes but does not establish causation.
+- The June crisis events are part of the fictional business scenario; they should not be presented as independently verified real-world events.
+- Segment findings reflect the categories and records available in the project dataset.
+- The dataset's original provenance has not been confirmed. Source attribution should be added when verified.
+- SLA breach rate is reported for completed orders; it should not be interpreted as a rate across all orders.
+- The project would benefit from deeper cohort analysis, cancellation-reason validation, and statistical testing before making causal or predictive claims.
 
-The analysis identified a major June 2025 downturn across orders, revenue, cancellations, customer ratings, sentiment, and delivery performance. The four-page Power BI report provides an integrated view of executive performance, customer and revenue trends, restaurant and product performance, and delivery experience.
+## 10. Project Conclusion
 
-The project demonstrates practical experience in data preparation, data modeling, DAX measures, KPI development, dashboard design, trend analysis, and translating findings into business recommendations.
+The QuickBite Express case study demonstrates how business intelligence can turn operational data into structured findings and management recommendations.
 
-**Key takeaway:** Sustainable recovery requires coordinated action across delivery operations, restaurant partnerships, customer experience, and customer retention.
+The analysis identified a major June 2025 downturn across orders, revenue, cancellations, ratings, sentiment, and delivery performance. The four-page Power BI report brings together:
 
-## 10. Future Scope
+1. **Executive Overview** — overall business health and key KPIs.
+2. **Customer & Revenue Analytics** — customer behavior, acquisition, and revenue trends.
+3. **Restaurant & Product Analytics** — partner, cuisine, and menu performance.
+4. **Delivery & Customer Experience** — delivery reliability, SLA performance, ratings, and sentiment.
+
+The project demonstrates practical skills in data preparation, data modeling, DAX measures, KPI development, dashboard design, trend analysis, and translating findings into business recommendations.
+
+**Key takeaway:** Sustainable recovery requires coordinated improvements in delivery operations, restaurant partnerships, customer experience, and customer retention—not just a short-term increase in orders.
+
+## 11. Future Scope
 
 - Analyze customer cohorts, retention, and repeat-purchase behavior.
 - Estimate customer lifetime value.
 - Develop machine learning models to predict delivery delays or cancellation risk.
 - Create restaurant and delivery-partner performance scores.
 - Automate data refresh and scheduled performance reporting.
-- Conduct deeper analysis to investigate factors associated with the June downturn.
-- Introduce targets and monitor actual recovery against a clearly defined baseline.
+- Investigate factors associated with the June downturn using validated data and appropriate statistical methods.
+- Define measurable recovery targets and monitor actual performance against a consistent baseline.
 
-## 11. Tools & Skills Demonstrated
+## 12. Tools & Skills Demonstrated
 
 - **Python and Pandas:** Data profiling, cleaning, and preparation.
 - **Power Query:** Data transformation and loading.
 - **Power BI:** Data modeling, report development, and interactive visualizations.
 - **DAX:** KPI calculations and analytical measures.
 - **Business analysis:** Trend interpretation, performance monitoring, and actionable recommendations.
+- **Git and GitHub:** Version control and project documentation.
 
 ---
 
-**Project note:** QuickBite Express is a fictional business scenario. The analysis describes patterns in the project dataset and should not be interpreted as verified findings about a real company. Dataset source attribution should be added when its provenance is confirmed.
+**Project note:** QuickBite Express is a fictional business scenario. Findings describe patterns in the project dataset and should not be interpreted as verified findings about a real company. Dataset source attribution should be added once its provenance is confirmed.
