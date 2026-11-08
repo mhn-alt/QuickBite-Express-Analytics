@@ -28,7 +28,7 @@ The objective is to identify trends, understand operational challenges, analyze 
 | Power BI | Interactive dashboard development |
 | Power Query | Data transformation |
 | DAX | KPI calculations and measures |
-| MySQL | Not used in this project |
+| Version control | Git,Github  |
 
 ## 📂 Dataset Description
 
